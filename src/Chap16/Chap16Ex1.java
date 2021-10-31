@@ -5,23 +5,19 @@ class Chap16Ex1
     {
         Scanner scan = new Scanner(System.in);
 
-        int intToAdd;
-        int count = 0;
-        int number = 0;
-        int numberAdded;
+        int countTotal = 0;
+        int sumTotal = 0;
 
         System.out.println("Enter how many integers will be added:");
-        intToAdd = scan.nextInt();
+        countTotal = scan.nextInt();
 
-        while (count != intToAdd) {
+        while (countTotal > 0) {
             System.out.println("Enter an integer:");
-            numberAdded = scan.nextInt();
-            number = number + numberAdded;
-            count ++;
-
+            sumTotal = sumTotal + scan.nextInt();;
+            countTotal --;
         }
 
-        System.out.println("The sum is: " + number); // final answer
+        System.out.println("The sum is: " + sumTotal); // final answer
 
 
     }
