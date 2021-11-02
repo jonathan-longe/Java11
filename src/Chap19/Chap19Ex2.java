@@ -7,9 +7,10 @@ class Chap19Ex2
     {
         Scanner scan = new Scanner(System.in);
 
-        double drugEffectiveness;
-        double expirationRate;
-        double expirationThreshold;
+        double drugEffectiveness = 100;
+        double expirationRate = 4;
+        double expirationThreshold = 50;
+        double finalExpirationRate;
         int month = 0;
 
         System.out.print("Enter drug effectiveness:");
@@ -21,18 +22,22 @@ class Chap19Ex2
         System.out.print("Enter expiration threshold:");
         expirationThreshold = scan.nextDouble();
 
-        double finalExpirationRate = expirationRate / 100;
 
-        while (drugEffectiveness < expirationThreshold) {
+
+        while (drugEffectiveness > expirationThreshold) {
             System.out.print("Month: " + month);
             System.out.println("     Effectiveness: " + drugEffectiveness);
+
+            finalExpirationRate = drugEffectiveness * (expirationRate / 100);
 
             drugEffectiveness = drugEffectiveness - finalExpirationRate;
 
             month++;
         }
 
-        System.out.println("DISCARD after " + month + " months");
+        System.out.print("Month: " + month);
+        System.out.print("     Effectiveness: " + drugEffectiveness);
+        System.out.println("     DISCARD");
 
     }
 }

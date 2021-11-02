@@ -1,3 +1,5 @@
+package Chap16;
+
 import java.util.Scanner;
 class Chap16Ex1
 {
