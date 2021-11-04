@@ -2,8 +2,8 @@ package Chap23;
 
 //this program reads data from a file instead of a keyboard
 
-import java.util.Scanner;
 import java.io.*;
+import java.util.Scanner;
 
 class Java12Question2
 
