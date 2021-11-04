@@ -1,7 +1,7 @@
 package Chap13;
 
 import java.util.Scanner;
-class Chap13Ex1
+class shippingCostTracker
 {
     public static void main (String[] args)
     {

@@ -1,7 +1,7 @@
 package Chap18;
 
 import java.util.Scanner;
-class Chap18Ex2
+class inRangeTest
 {
     public static void main (String[] args)
     {

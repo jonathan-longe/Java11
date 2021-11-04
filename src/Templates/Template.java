@@ -1,3 +1,5 @@
+package Templates;
+
 import java.util.Scanner;
 class Template
 {

@@ -1,7 +1,7 @@
 package Chap20;
 
 import java.util.Scanner;
-class Chap20Ex1
+class combinationLockStrict
 {
 
         public static void main( String[] args )

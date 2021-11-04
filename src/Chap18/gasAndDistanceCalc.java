@@ -2,7 +2,8 @@ package Chap18;
 
 import java.util.Scanner ;
 
-class Chap18Ex1 {
+class gasAndDistanceCalc
+{
 
     public static void main(String[] args) {
 

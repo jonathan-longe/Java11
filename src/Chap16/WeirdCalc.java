@@ -1,7 +1,7 @@
 package Chap16;
 
 import java.util.Scanner;
-class Chap16Ex2
+class WeirdCalc
 {
     public static void main (String[] args)
     {

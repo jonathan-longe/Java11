@@ -1,7 +1,7 @@
 package Chap19;
 
 import java.util.Scanner;
-class Chap19Ex1
+class debtCalc
 {
     public static void main (String[] args)
     {

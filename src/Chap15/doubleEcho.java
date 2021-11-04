@@ -1,7 +1,7 @@
 package Chap15;
 
 import java.util.Scanner;
-class Chap15Ex3
+class doubleEcho
 {
     public static void main (String[] args)
     {

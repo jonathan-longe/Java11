@@ -1,7 +1,7 @@
 package Chap18;
 
 import java.util.Scanner;
-class Chap18Ex4
+class rectangleAreaCalcWithCords
 {
     public static void main (String[] args)
     {

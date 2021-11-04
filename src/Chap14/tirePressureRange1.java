@@ -1,7 +1,7 @@
 package Chap14;
 
 import java.util.Scanner;
-class Chap14Ex2
+class tirePressureRange1
 {
     public static void main (String[] args)
     {

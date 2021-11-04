@@ -1,7 +1,7 @@
 package Chap18;
 
 import java.util.Scanner;
-class Chap18Ex3
+class shippingCalc2
 {
     public static void main (String[] args)
     {

@@ -1,7 +1,7 @@
 package Chap19;
 
 import java.util.Scanner;
-class Chap19Ex2
+class drugEffectivenessCalc
 {
     public static void main (String[] args)
     {
