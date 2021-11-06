@@ -1,8 +1,7 @@
 package Chap15;
 
-
 import java.util.Scanner;
-class Chap15Ex1
+class dynamicCounter
 {
     public static void main (String[] args)
     {

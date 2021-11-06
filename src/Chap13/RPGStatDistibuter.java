@@ -1,7 +1,7 @@
 package Chap13;
 
 import java.util.Scanner;
-class Chap13Ex4
+class RPGStatDistibuter
 {
     public static void main (String[] args)
     {

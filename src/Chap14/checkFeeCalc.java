@@ -1,7 +1,7 @@
 package Chap14;
 
 import java.util.Scanner;
-class Chap14Ex1
+class checkFeeCalc
 {
     public static void main (String[] args)
     {
